@@ -1,6 +1,6 @@
 # Algortihm Study
 
-https://github.com/giraycoskun/algorithm-study/actions/workflows/gh-page/badge.svg
+<https://github.com/giraycoskun/algorithm-study/actions/workflows/gh-page.yml/badge.svg>
 
 **Docs:** [giraycoskun.github.io/algorithm-study](https://giraycoskun.github.io/algorithm-study/)
 
