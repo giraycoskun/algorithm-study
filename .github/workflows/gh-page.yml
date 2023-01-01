@@ -1,0 +1,36 @@
+name: Publish Docs 
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    #----------------------------------------------
+    #       check-out repo and set-up python
+    #----------------------------------------------
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      - name: Set up python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.11.0
+          cache: 'pip' # caching pip dependencies
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
+
+    #----------------------------------------------
+    #       build and deploy site
+    #----------------------------------------------
+      - name: Build site
+        run: |
+          source .venv/bin/activate
+          mkdocs build
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: site # The folder the action should deploy.
+          
