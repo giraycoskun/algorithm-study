@@ -1,6 +1,6 @@
 # Algortihm Study
 
-**Docs:** <giraycoskun.github.io>
+**Docs:** <giraycoskun.github.io/algorithm-study>
 
 My algorithm study through various resources including coding competitions
 
