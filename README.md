@@ -1,6 +1,8 @@
 # Algortihm Study
 
-**Docs:** <giraycoskun.github.io/algorithm-study>
+https://github.com/giraycoskun/algorithm-study/actions/workflows/gh-page/badge.svg
+
+**Docs:** [giraycoskun.github.io/algorithm-study](https://giraycoskun.github.io/algorithm-study/)
 
 My algorithm study through various resources including coding competitions
 
